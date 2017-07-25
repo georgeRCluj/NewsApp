@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="editTextMargin">16dp</dimen>
+    <dimen name="listTopMargin">0dp</dimen>
+    <dimen name="listItemMargin">8dp</dimen>
+
+</resources>

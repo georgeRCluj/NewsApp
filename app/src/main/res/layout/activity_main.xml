@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.newsapp.MainActivity">
+
+    <ListView
+        android:id="@+id/baseListId"
+        style="@style/ListStyle"
+        android:drawSelectorOnTop="true"
+        android:orientation="vertical" />
+
+    <ProgressBar
+        android:id="@+id/loadingSpinnerId"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/emptyViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/editTextMargin"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/retryButtonId"
+        style="@style/ButtonStyle"
+        android:layout_below="@id/emptyViewId"
+        android:layout_centerInParent="true"
+        android:text="@string/no_net_retry_button"
+        android:visibility="gone" />
+</RelativeLayout>

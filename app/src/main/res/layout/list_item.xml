@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/articleTitleId"
+        style="@style/ListItemStyle"
+        android:text="Article Title"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/articleSectionId"
+        style="@style/ListItemStyle"
+        android:text="Article Section" />
+
+    <TextView
+        android:id="@+id/articlePublishedDateId"
+        style="@style/ListItemStyle"
+        android:text="Article Published Date" />
+
+</LinearLayout>
